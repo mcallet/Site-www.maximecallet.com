@@ -79,7 +79,7 @@ body
 
 
 
-#ban
+.ban
 {
 	display: flex;
 	justify-content: space-around;
@@ -93,7 +93,7 @@ body
 	margin-left: 15px;
 }
 
-#logosite
+.logoheader
 {
 	margin-top: 7px;
 	width: auto;
@@ -106,7 +106,7 @@ body
 	margin-left: 120px;
 }
 
-#ban h1
+.ban h1
 {
 	font-family: 'namefont', arial, serif; 
 	font-size: 30px;
@@ -117,14 +117,14 @@ body
 	z-index: 1;
 }
 
-#ban h2
+.ban h2
 {
 	font-family: 'soustitrefont', arial, serif;
 	font-size: 14px;
 	letter-spacing: 1px;
 }
 
-#ban h1, #ban h2
+.ban h1, .ban h2
 {
 	font-weight: 400;
 }
@@ -212,7 +212,7 @@ nav ul
 
 
 
-#home
+.home
 {
 	background-color: #FFBA39;
 	height: 100%;
@@ -240,14 +240,14 @@ nav ul
 	bottom: 5px;
 }
 
-#headhome
+.headhome
 {
 	display: flex;
 	justify-content: center;
 	height: 236px;
 }
 
-#headhome h1
+.headhome h1
 {
 	font-family: 'titreprésentation', arial, serif;
 	letter-spacing: 1px;
@@ -299,7 +299,7 @@ nav ul
 	margin-left: 14px;
 }
 
-#headhome p
+.headhome p
 {
 	font-family: 'textefont', arial, serif;
 	font-size: 18px;
@@ -324,7 +324,7 @@ nav ul
 
 
 
-#contenu
+.contenu
 {
 	font-family: 'textefont', arial, serif;
 	display: flex;
@@ -337,12 +337,12 @@ nav ul
 	margin-bottom: 80px;
 }
 
-#contenu span
+.contenu span
 {
 	font-weight: bold;
 }
 
-#contenu p
+.contenu p
 {
 	width: 1000px;
 }
