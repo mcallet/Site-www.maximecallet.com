@@ -350,6 +350,7 @@ nav ul
 .bouton
 {
 	font-family: 'navfont', arial, serif;
+	letter-spacing: 1px;
 	text-shadow: 0.3px 0.6px 0.4px black;
 	text-transform: uppercase;
 	text-align: center;
@@ -365,4 +366,16 @@ nav ul
 	color: #FFFFFF;
 	background-color: #FFBA39;
 	padding: 5px 10px 5px 10px;
+}
+
+.petitcontenu
+{
+	width: 1000px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.petitcontenu p
+{
+	width: 485px;
 }
