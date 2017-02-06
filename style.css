@@ -247,6 +247,11 @@ nav ul
 	height: 236px;
 }
 
+.headhome2
+{
+	height: 20px;
+}
+
 .headhome h1
 {
 	font-family: 'titreprésentation', arial, serif;
@@ -352,7 +357,6 @@ nav ul
 	font-family: 'navfont', arial, serif;
 	letter-spacing: 1px;
 	text-shadow: 0.3px 0.6px 0.4px black;
-	text-transform: uppercase;
 	text-align: center;
 	margin-bottom: 30px;
 }
@@ -378,4 +382,16 @@ nav ul
 .petitcontenu p
 {
 	width: 485px;
+}
+
+.petitcontenubook
+{
+	width: 1140px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.petitcontenubook p
+{
+	width: 555px;
 }

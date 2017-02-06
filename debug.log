@@ -1,0 +1,6 @@
+[0205/200928:ERROR:process_info.cc(330)] VirtualQueryEx: Accès refusé. (0x5)
+[0205/200928:ERROR:process_info.cc(547)] ReadMemoryInfo failed
+[0205/200928:ERROR:process_reader_win.cc(99)] process 28648 not found
+[0205/200928:ERROR:exception_snapshot_win.cc(87)] thread ID 28664 not found in process
+[0205/200928:WARNING:crash_report_exception_handler.cc(61)] ProcessSnapshotWin::Initialize failed
+[0205/200928:ERROR:scoped_process_suspend.cc(38)] NtResumeProcess: Tentative d’accès à un processus en cours d’arrêt.  (0xc000010a)
