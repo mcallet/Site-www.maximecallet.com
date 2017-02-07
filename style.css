@@ -3,7 +3,9 @@
 @font-face
 {
 	font-family: 'textefont';
-	src: url('font/uni-sans.ttf') format('truetype');
+	src: url('font/uni-sans.eot');
+	src: url('font/uni-sans.eot?#iefix') format('embedded-opentype'),
+		 url('font/uni-sans.ttf') format('truetype');
 	font-style: normal;
 	font-weight: normal;
 }
@@ -11,7 +13,9 @@
 @font-face
 {
 	font-family: 'soustitrefont';
-	src: url('font/uni-sans-bold-italic.ttf') format('truetype');
+	src: url('font/uni-sans-bold-italic.eot');
+	src: url('font/uni-sans-bold-italic.eot?#iefix') format('embedded-opentype'),
+		 url('font/uni-sans-bold-italic.ttf') format('truetype');
 	font-style: normal;
 	font-weight: normal;
 }
@@ -19,8 +23,9 @@
 @font-face
 {
 	font-family: 'navfont';
-	src: url('font/uni-sans-heavy.ttf') format('truetype');
-	src: url('font/uni-sans-heavy.otf') format('opentype');
+	src: url('font/uni-sans-heavy.eot');
+	src: url('font/uni-sans-heavy.eot?#iefix') format('embedded-opentype'),
+		 url('font/uni-sans-heavy.ttf') format('truetype');
 	font-style: normal;
 	font-weight: normal;
 }
@@ -28,7 +33,9 @@
 @font-face
 {
 	font-family: 'titreprésentation';
-	src: url('font/deartype-beachbarscript-semibold.ttf') format('truetype');
+	src: url('font/deartype-beachbarscript-semibold.eot');
+	src: url('font/deartype-beachbarscript-semibold.eot?#iefix') format('embedded-opentype'),
+		 url('font/deartype-beachbarscript-semibold.ttf') format('truetype');
 	font-style: normal;
 	font-weight: normal;
 }
@@ -36,7 +43,9 @@
 @font-face
 {
 	font-family: 'namefont';
-	src: url('font/uni-sans-heavy-italic.ttf') format('truetype');
+	src: url('font/uni-sans-heavy-italic.eot');
+	src: url('font/uni-sans-heavy-italic.eot?#iefix') format('embedded-opentype'),
+		 url('font/uni-sans-heavy-italic.ttf') format('truetype');
 	font-style: normal;
 	font-weight: normal;
 }
@@ -177,7 +186,7 @@ nav
 nav a
 {
 	padding-top: 100%;
-	padding-bottom: 25px;
+	padding-bottom: 26px;
 	padding-right: 25px;
 	padding-left: 25px;
 	text-decoration: none;
@@ -364,6 +373,7 @@ nav ul
 .bouton a
 {
 	text-decoration: none;
+	text-transform: uppercase;
 	border: 1px solid #FFBA39;
 	box-shadow: 0px 1px 4px black;
 	border-radius: 18px/20px;
