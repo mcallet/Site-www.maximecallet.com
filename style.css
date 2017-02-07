@@ -91,7 +91,7 @@ body
 
 .ban
 {
-	text-transform: uppercase;
+	
 	color: #FFBA39;
 	height: 76px;
 	display: flex;
@@ -102,7 +102,7 @@ body
 	width: 1311px;
 }
 
-.titresite
+header .titresite
 {
 	margin-left: 15px;
 }
@@ -113,44 +113,57 @@ body
 	height: 63px;
 }
 
-.logosite
+header .logosite
 {
 	height: auto;
 	display: flex;
 	align-items: center;
 }
 
-.ban h1
+div[class*="titresite"] h1
 {
-	font-family: 'namefont', arial, serif; 
-	font-size: 30px;
-	letter-spacing: 1.5px;
+	font-family: 'namefont', arial, serif;
+	text-transform: uppercase; 
 	color: #FFFFFF;
+	letter-spacing: 1.5px;
+	font-weight: 400;
+	line-height: 0px;
 	position: relative;
 	top: 3px;
 }
 
-.ban h2
+div[class*="titresite"] h2
 {
 	font-family: 'soustitrefont', arial, serif;
+	text-transform: uppercase; 
+	font-weight: 400;
+	line-height: 0px;
+	color: #FFBA39;
+}
+
+.ban h1
+{
+	font-size: 30px;
+}
+
+.ban h2
+{
+	
 	font-size: 14px;
 	letter-spacing: 1px;
 }
 
-.ban h1, .ban h2
+.alignh2
 {
-	font-weight: 400;
-	line-height: 0px;
+	position: relative;
+	bottom: 3px;
 }
 
-.alignh2
+div[class*="alignh2"]
 {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	line-height: 0px;
-	position: relative;
-	bottom: 3px;
 }
 
 .bordureh2l
@@ -180,6 +193,7 @@ body
 nav
 {
 	font-family: 'navfont', arial, serif;
+	text-transform: uppercase;
 	font-size: 22px;
 }
 
@@ -226,7 +240,6 @@ nav ul
 	flex-direction: column;
 	background-color: #FFBA39;
 	height: 100%;
-	margin-bottom: 200px;
 	min-width: 1311px;
 }
 
@@ -402,4 +415,51 @@ nav ul
 .petitcontenubook p
 {
 	width: 555px;
+}
+
+
+
+
+
+/* footer */
+
+
+
+.footerlogosite
+{
+	text-align: center;
+	margin-top: 15px;
+}
+
+.footerlogosite h1
+{
+	font-weight: 400;
+	line-height: 0px;
+}
+
+footer .titresite
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+footer h2
+{
+	font-family: 'soustitrefont';
+	text-transform: uppercase;
+	color: #FFFFFF;
+	font-weight: 400;
+	font-size: 14px;
+	letter-spacing: 1px;
+	line-height: 0px;
+	padding-right: 18px;
+	padding-left: 18px;
+}
+
+footer p
+{
+	font-family: 'textefont';
+	color: #9B9B9B;
+	font-weight: 500;
 }
