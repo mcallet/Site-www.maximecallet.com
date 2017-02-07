@@ -378,7 +378,8 @@ nav ul
 	letter-spacing: 1px;
 	text-shadow: 0.3px 0.6px 0.4px black;
 	text-align: center;
-	margin-bottom: 30px;
+	margin-top: 30px;
+	margin-bottom: 60px;
 }
 
 .bouton a
@@ -390,7 +391,7 @@ nav ul
 	border-radius: 18px/20px;
 	color: #FFFFFF;
 	background-color: #FFBA39;
-	padding: 5px 10px 5px 10px;
+	padding: 8px 10px 5px 10px;
 }
 
 .petitcontenu
