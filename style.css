@@ -74,6 +74,7 @@ body
 {
 	width: auto;
 	margin: auto;
+	height: auto;
 }
 
 
@@ -90,11 +91,15 @@ body
 
 .ban
 {
-	display: flex;
-	justify-content: space-around;
 	text-transform: uppercase;
 	color: #FFBA39;
 	height: 76px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	max-width: auto;
+	margin: auto;
+	width: 1311px;
 }
 
 .titresite
@@ -104,15 +109,15 @@ body
 
 .logoheader
 {
-	margin-top: 7px;
 	width: auto;
 	height: 63px;
 }
 
 .logosite
 {
+	height: auto;
 	display: flex;
-	margin-left: 120px;
+	align-items: center;
 }
 
 .ban h1
@@ -122,8 +127,7 @@ body
 	letter-spacing: 1.5px;
 	color: #FFFFFF;
 	position: relative;
-	bottom: 7px;
-	z-index: 1;
+	top: 3px;
 }
 
 .ban h2
@@ -136,32 +140,29 @@ body
 .ban h1, .ban h2
 {
 	font-weight: 400;
+	line-height: 0px;
 }
 
 .alignh2
 {
 	display: flex;
-	justify-content: center;
+	align-items: center;
+	justify-content: space-between;
+	line-height: 0px;
 	position: relative;
-	bottom: 41px;
+	bottom: 3px;
 }
 
 .bordureh2l
 {
 	border-bottom: 1px solid #FFBA39;
 	width: 42px;
-	position: relative;
-	bottom: 20px;
-	margin-right: 10px;
 }
 
 .bordureh2r
 {
 	border-bottom: 1px solid #FFBA39;
 	width: 42px;
-	position: relative;
-	bottom: 20px;
-	margin-left: 10px;
 }
 
 
@@ -180,17 +181,17 @@ nav
 {
 	font-family: 'navfont', arial, serif;
 	font-size: 22px;
-	margin-right: 120px;
 }
 
 nav a
 {
-	padding-top: 100%;
-	padding-bottom: 26px;
-	padding-right: 25px;
-	padding-left: 25px;
 	text-decoration: none;
 	color: #FFFFFF;
+	padding-top: 100%;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-bottom: 30px;
+
 }
 
 nav a:hover
@@ -204,9 +205,6 @@ nav ul
 	display: flex;
 	list-style-type: none;
 	letter-spacing: 1.5px;
-	position: relative;
-	top: 3px;
-	z-index: 1;
 }
 
 
@@ -223,9 +221,13 @@ nav ul
 
 .home
 {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
 	background-color: #FFBA39;
 	height: 100%;
-	margin-bottom: 200px
+	margin-bottom: 200px;
+	min-width: 1311px;
 }
 
 
@@ -245,15 +247,20 @@ nav ul
 {
 	width: auto;
 	height: 241px;
-	position: relative;
-	bottom: 5px;
+	align-self: flex-end;
 }
 
 .headhome
 {
 	display: flex;
 	justify-content: center;
+	align-items: center;
 	height: 236px;
+}
+
+.headhome article
+{
+	line-height: 0px;
 }
 
 .headhome2
@@ -265,66 +272,57 @@ nav ul
 {
 	font-family: 'titreprésentation', arial, serif;
 	letter-spacing: 1px;
-	font-size: 38px;
-	text-align: center;
-	position: relative;
-	bottom: 20px;
+	font-size: 35px;
+	word-wrap: break-word;
 }
 
 .bordureflex
 {
 	display: flex;
-	justify-content: center;
+	justify-content: space-between;
+	align-items: center;
+	padding-right: 55px;
+	padding-left: 55px;
 }
 
 .bordureh1lqui
 {
-	position: relative;
-	bottom: 88px;
 	border-bottom: 2px solid;
 	width: 67px;
-	margin-right: 23px;
 }
 
 .bordureh1rqui
 {
-	position: relative;
-	bottom: 88px;
 	border-bottom: 2px solid;
 	width: 67px;
-	margin-left: 23px;
 }
 
 .bordureh1lquoi
 {
-	position: relative;
-	bottom: 88px;
 	border-bottom: 2px solid;
 	width: 53px;
-	margin-right: 14px;
 }
 
 .bordureh1rquoi
 {
-	position: relative;
-	bottom: 88px;
 	border-bottom: 2px solid;
 	width: 53px;
-	margin-left: 14px;
 }
 
 .headhome p
 {
 	font-family: 'textefont', arial, serif;
-	font-size: 18px;
+	font-size: 17.4px;
 	text-align: justify;
 	overflow: hidden;
-	max-height: 140px;
-	max-width: 355px;
+	width: 358px;
 	margin-right: 55px;
 	margin-left: 55px;
-	position: relative;
-	bottom: 70px;
+	line-height: 20px;
+	word-spacing: 3px;
+	-webkit-hyphens: auto;
+	-ms-hyphens: auto;
+	hyphens: auto;
 }
 
 
