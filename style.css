@@ -95,11 +95,9 @@ body
 	color: #FFBA39;
 	height: 76px;
 	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	max-width: auto;
+	justify-content: center;
+	min-width: 350px;
 	margin: auto;
-	width: 1311px;
 }
 
 header .titresite
@@ -178,48 +176,6 @@ div[class*="alignh2"]
 	width: 42px;
 }
 
-
-
-
-
-
-/* navigation */
-
-
-
-
-
-
-nav
-{
-	font-family: 'navfont', arial, serif;
-	text-transform: uppercase;
-	font-size: 22px;
-}
-
-nav a
-{
-	text-decoration: none;
-	color: #FFFFFF;
-	padding-top: 100%;
-	padding-left: 25px;
-	padding-right: 25px;
-	padding-bottom: 30px;
-
-}
-
-nav a:hover
-{
-	background-color: #FFBA39;
-	color: #FFFFFF;
-}
-
-nav ul
-{
-	display: flex;
-	list-style-type: none;
-	letter-spacing: 1.5px;
-}
 
 
 
@@ -402,24 +358,13 @@ nav ul
 
 .petitcontenu
 {
-	width: 1000px;
+	width: 1140px;
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-between;
 }
 
 .petitcontenu p
-{
-	width: 485px;
-}
-
-.petitcontenubook
-{
-	width: 1140px;
-	display: flex;
-	justify-content: space-between;
-}
-
-.petitcontenubook p
 {
 	width: 555px;
 }
