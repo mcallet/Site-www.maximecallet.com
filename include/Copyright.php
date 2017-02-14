@@ -1,0 +1,1 @@
+<p class="copyright">© 2014 - 2017 - Maxime Callet - Tous droits réservés - Les différents contenus de ce site ne sont pas libres de droits.</p>

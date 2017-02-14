@@ -8,20 +8,11 @@
 
 	<body>
 		<div id="bloc_page">
-			<header class="ban">	
-				<a href="home.html"><img class="logoheader" src="image/logo.png" alt="logo du site" />
-				<div class="titresite">
-					<h1>Maxime callet</h1>
-					<div class="alignh2">
-						<div class="bordureh2l"></div>
-						<h2>Unity Developer</h2>
-						<div class="bordureh2r"></div>
-					</div>
-					</a>
-				</div>
-			</header>
+
+			<?php include("include/header.php"); ?>
 
 			<section class="home">
+
 				<header class="headhome">
 					<img class="photoprofil" src="image/photo.png" alt="photo de Maxime" />
 					<article>
@@ -32,6 +23,7 @@
 						</div>
 						<p>Passionné, curieux, appliqué, motivé et diplômé d’un Bachelor Game Design, je me suis spécialisé dans la programmation sur Unity3D. J’ai pu faire mes premières preuves au sein de la start-up Aries Développement, pour laquelle j’ai développé un serious game pour l’Éducation Nationale.</p>
 					</article>
+
 					<article>
 						<div class="bordureflex">
 							<div class="bordureh1lquoi"></div>
@@ -43,103 +35,88 @@
 				</header>
 
 				<section class="contenu">
-					<article class="cqfd">
+					<article>
 						<iframe width="1140" height="563" src="https://www.youtube.com/embed/CS_rxeIgwR4?showinfo=0" frameborder="0"></iframe>
 						<p>
 							<span>CQFD</span> est un <span>serious game</span> de mathématiques qui emploie les techniques du jeu vidéo pour un <span>enseignement ludique</span>. Le contenu pédagogique est <span>conçu</span> en collaboration avec des professeurs de l'Académie d'Aix-Marseille et <span>certifié</span> par l'Education Nationale. Il est utilisé <span>en classe</span> avec le professeur ou à la maison avec les parents, dans le but d'<span>apprendre en s'amusant</span>.
 						</p>
-						<div class="bouton"><a href="cqfd.html">découvrir le projet</a></div>
+						<div class="bouton"><a href="cqfd.php">découvrir le projet</a></div>
 					</article>
 
 					<div class="petitcontenu">
-
 						<article>
-						<a href="ikuinen.html"><img width="555" height="347" src="image/ikuinen.png" alt="Photo projet Ikuinen" /></a>
+							<a href="ikuinen.php"><img width="555" height="347" src="image/ikuinen.png" alt="Photo projet Ikuinen" /></a>
 							<p>
 								<span>Ikuinen</span> est un <span>projet étudiant</span> réalisé en groupe sous <span>Unity3D</span> dans le cadre de la formation <span>ARIES Lyon</span>. Incarnez <span>Kumi</span>, l'enfant de feu, plongé dans un univers victime d'un maléfice, ensevelit sous une neige éternelle. Partez à l'aventure pour briser le sort qui trône sur le monde de <span>Hiutale</span> et découvrez la vérité.
 							</p>
-							<div class="bouton"><a href="ikuinen.html">découvrir le projet</a></div>
+							<div class="bouton"><a href="ikuinen.php">découvrir le projet</a></div>
 						</article>
 					
-					<article class="reach">
-						<a href="reach.html"><img width="555" height="347" src="image/Reach.png" alt="Photo projet Reach" /></a>
-						<p>
-							<span>Reach</span> est un projet réalisé en groupe, sous <span>Unity3D</span> en utilisant la technologie de réalité virtuelle <span>Oculus Rift</span>, dans le cadre d'un stage en entreprise pour la promotion de l'école <span>ARIES Lyon</span>. Incarnez un <span>extraterrestre</span> égaré et rejoignez votre terre grâce à votre grappin et à l'<span>Oculus Rift</span>.
-						</p>
-						<div class="bouton"><a href="reach.html">découvrir le projet</a></div>
-					</article>
-
-					<article>
-					<a href="arbitrium.html"><img width="555" height="347" src="image/arbitrium.png" alt="Photo projet Arbitrium" /></a>
-						<p>
-							<span>Arbitrium</span> est un <span>projet en équipe</span> réalisé dans le cadre de la <span>Global Game Jam 2015 à Bellecour</span> en 48h non-stop. Le thème imposé était : <span>"What do we do now?"</span> L'intention de réalisation de l'équipe était de concevoir un jeu contemplatif qui permet au joueur de créer lui même son propre univers en explorant l'environnement.
-							<br />
-							<br />
-						</p>
-						<div class="bouton"><a href="arbitrium.html">découvrir le projet</a></div>
+						<article>
+							<a href="reach.php"><img width="555" height="347" src="image/Reach.png" alt="Photo projet Reach" /></a>
+							<p>
+								<span>Reach</span> est un projet réalisé en groupe, sous <span>Unity3D</span> en utilisant la technologie de réalité virtuelle <span>Oculus Rift</span>, dans le cadre d'un stage en entreprise pour la promotion de l'école <span>ARIES Lyon</span>. Incarnez un <span>extraterrestre</span> égaré et rejoignez votre terre grâce à votre grappin et à l'<span>Oculus Rift</span>.
+							</p>
+							<div class="bouton"><a href="reach.html">découvrir le projet</a></div>
 						</article>
 
-						<article class>
-							<a href="callofduty.html"><img width="555" height="347" src="image/cod.jpg" alt="Photo projet COD" /></a>
+						<article>
+							<a href="arbitrium.php"><img width="555" height="347" src="image/arbitrium.png" alt="Photo projet Arbitrium" /></a>
+							<p>
+								<span>Arbitrium</span> est un <span>projet en équipe</span> réalisé dans le cadre de la <span>Global Game Jam 2015 à Bellecour</span> en 48h non-stop. Le thème imposé était : <span>"What do we do now?"</span> L'intention de réalisation de l'équipe était de concevoir un jeu contemplatif qui permet au joueur de créer lui même son propre univers en explorant l'environnement.
+								<br />
+								<br />
+							</p>
+							<div class="bouton"><a href="arbitrium.php">découvrir le projet</a></div>
+						</article>
+
+						<article>
+							<a href="callofduty.php"><img width="555" height="347" src="image/cod.jpg" alt="Photo projet COD" /></a>
 							<p>
 								L'<span>analyse Rational Game Design</span> sur le jeu <span>Call of Duty : Advanced Warfare</span> est un projet réalisé dans le cadre de la formation <span>ARIES Lyon</span>. Suite à la découverte et à l'initiation au <span>Rational Game Design</span>, l'exercice consistait à choisir un jeu et à analyser l'expérience de jeu rechercher par les développeurs, la règle des 3C (Character - Camera - Control ) et une boucle de gameplay.
 							</p>
-							<div class="bouton"><a href="callofduty.html">découvrir le projet</a></div>
+							<div class="bouton"><a href="callofduty.php">découvrir le projet</a></div>
 						</article>
 
 						<article>
-						<a href="themasteroftime.html"><img width="555" height="347" src="image/masteroftime.png" alt="Photo projet Master Of Time" /></a>
+							<a href="themasteroftime.php"><img width="555" height="347" src="image/masteroftime.png" alt="Photo projet Master Of Time" /></a>
 							<p>
 								<span>The Master of Time : Prototype</span> est un <span>projet personnel</span> réalisé sur <span>UDK Kismet</span>. L'intention de réalisation consistait à créer un contraste temporel entre le présent, un temple en ruine, et le passé, ce même temple en bon état dans une époque révolue. Voyagez d'une époque à l'autre afin d'avancer dans ce temple détruit, retrouvez les clefs cachées et échappez-vous.
 							</p>
-							<div class="bouton"><a href="themasteroftime.html">découvrir le projet</a></div>
+							<div class="bouton"><a href="themasteroftime.php">découvrir le projet</a></div>
 						</article>
 
 						<article>
-							<a href="seashepherd.html"><img width="555" height="347" src="image/seashepherd.png" alt="Photo projet Sea Shepherd" /></a>
+							<a href="seashepherd.php"><img width="555" height="347" src="image/seashepherd.png" alt="Photo projet Sea Shepherd" /></a>
 							<p>
 								<span>Sea Shepherd : Game Concept</span> est un projet réalisé dans le cadre de la formation <span>ARIES Lyon</span>. Le sujet de l'exercice consistait à inventer un concept de jeu vidéo original utilisant le périphérique du célèbre jeu de rythme <span>DJ Hero</span>, la <span>platine vinyle</span>, tout en se détachant du genre de celui-ci.
 								<br />
 								<br />
 							</p>
-							<div class="bouton"><a href="seashepherd.html">découvrir le projet</a></div>
+							<div class="bouton"><a href="seashepherd.php">découvrir le projet</a></div>
 						</article>
 
 						<article>
-						<a href="theroad.html"><img width="555" height="347" src="image/theroad.png" alt="Photo projet The Road" /></a>
+							<a href="theroad.php"><img width="555" height="347" src="image/theroad.png" alt="Photo projet The Road" /></a>
 							<p>
 								<span>The Road</span> est un projet réalisé dans le cadre de la formation <span>ARIES Lyon</span>. Le sujet de l'exercice consistait à adapter le film du même nom en un jeu vidéo. Survivez dans un environnement hostile post-apocalyptique, protégez votre fils des survivants devenus fous et entretenez un bon comportement auprès de lui.
 							</p>
-							<div class="bouton"><a href="theroad.html">découvrir le projet</a></div>
+							<div class="bouton"><a href="theroad.php">découvrir le projet</a></div>
 						</article>
 
 						<article>
-							<a href="theyupiksquest.html"><img width="555" height="347" src="image/YupikQuest.png" alt="Photo projet Yuôk Quest" /></a>
+							<a href="theyupiksquest.php"><img width="555" height="347" src="image/YupikQuest.png" alt="Photo projet Yuôk Quest" /></a>
 							<p>
 								<span>The Yupik's Quest</span> est un projet commun <span>Flash</span> réalisé en une semaine dans le cadre de la formation <span>ARIES Lyon</span> programmé en <span>ActionScript3</span> avec comme thème le labyrinthe. Aidez <span>Yupik</span>, un esquimau écolo, à combattre la pollution qui envahit sa banquise et ramasser un maximum de déchets pour éviter la fonte des glaces.
 							</p>
-							<div class="bouton"><a href="theyupiksquest.html">découvrir le projet</a></div>
+							<div class="bouton"><a href="theyupiksquest.php">découvrir le projet</a></div>
 						</article>
-
 					</div>
+					
 				</section>
-				<p class="copyright">© 2014 - 2017 - Maxime Callet - Tous droits réservés - Les différents contenus de ce site ne sont pas libres de droits.</p>
+				<?php include("include/copyright.php"); ?>	
 			</section>
 		</div>
-		<footer>
-			<div class="footerlogosite">
-				<img class="logoheader" src="image/logo.png" alt="logo du site" />
-				<div class="titresite">
-					<h1>Maxime callet</h1>
-					<div class="alignh2">
-						<div class="bordureh2l"></div>
-						<h2>Unity Developer</h2>
-						<div class="bordureh2r"></div>	
-					</div>
-				</div>
-				<p>Design : Maxime Callet <br />
-				Dév. et intégration : Thomas Meytre</p>
-			</div>
-		</footer>
+		<?php include("include/footer.php"); ?>
 	</body>
 </html>

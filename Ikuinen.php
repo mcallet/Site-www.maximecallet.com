@@ -8,22 +8,11 @@
 
 	<body>
 		<div id="bloc_page">
-			<header class="ban">	
-				<a href="home.html"><img class="logoheader" src="image/logo.png" alt="logo du site" />
-				<div class="titresite">
-					<h1>Maxime callet</h1>
-					<div class="alignh2">
-						<div class="bordureh2l"></div>
-						<h2>Unity Developer</h2>
-						<div class="bordureh2r"></div>
-					</div>
-					</a>
-				</div>
-			</header>
+
+			<?php include("include/header.php"); ?>
 
 			<section class="home">
-				<header class="headhome2">
-				</header>
+				<header class="headhome2"></header>
 
 				<section class="contenu">
 					<h1>Introduction :</h1>
@@ -40,17 +29,17 @@
 						<br />
 						Le plus gros point <span>positif</span> que je retiens de cette <span>expérience</span> est d'avoir occupé le poste de <span>programmeur</span> ainsi que de <span>Game Designer</span>. En effet, l'aspect <span>rationnel</span> de la <span>programmation</span> est un atout qui permet de mieux se <span>projeter</span>, et ainsi <span>créer</span> ses idées de <span>Game Design</span>.
 					</p>
-					<img src="image/ikuinen/ikuinen1.jpg" alt="Image du jeu" width="1000" height="563" />
+					<img src="image/ikuinen/ikuinen1.jpg" alt="Image du jeu" width="1140" height="563" />
 					<h1>Pitch :</h1>
 					<p>
 						<span>Ikuinen</span> est un jeu d'<span>action/aventure</span> avec un aspect <span>plateforme</span>. Le royaume de <span>Hiutale</span> est plongé sous un hiver éternel à la suite d'une malédiction. Kumi, l'enfant du feu, grâce à ses pouvoirs est la seule personne à pouvoir conjurer le sort.
 					</p>
-					<img src="image/ikuinen/ikuinen2.jpg" alt="Image du jeu" width="1000" height="563" />
+					<img src="image/ikuinen/ikuinen2.jpg" alt="Image du jeu" width="1140" height="563" />
 					<h1>Gameplay :</h1>
 					<p>
 						<span>Kumi</span> est l'enfant du <span>feu</span>. Elle possède donc des pouvoirs de feu qui lui permettront de faire <span>fondre, brûler<span> des éléments du décor, ou encore de <span>détruire</span> certaines surfaces fragiles. Cependant, <span>Kumi</span> possède également un <span>bracelet</span> magique, qui lui offre la maîtrise de la <span>glace</span>. Avec ses pouvoirs de glace, l'enfant du feu peut <span>geler</span> des éléments du décor et <span>créer des plateformes</span> de glace afin d'atteindre des hauteurs inatteignables auparavant.
 					</p>
-					<img src="image/ikuinen/ikuinen3.jpg" alt="Image du jeu" width="1000" height="563">
+					<img src="image/ikuinen/ikuinen3.jpg" alt="Image du jeu" width="1140" height="563">
 					<p>
 						Les pouvoirs de <span>feu</span> et de <span>glace</span> permettent également de <span>charger</span> les <span>cristaux</span> d'énergies avec le pouvoir correspondant, ou le <span>décharger</span> avec le pouvoir inverse.<br />
 						<br />
@@ -77,24 +66,13 @@
 						<span>- ZIVEC Delphine :</span> Artiste 2D / 3D / Animator<br />
 					</p>
 				</section>
-				<p class="copyright">© 2014 - 2017 - Maxime Callet - Tous droits réservés - Les différents contenus de ce site ne sont pas libres de droits.</p>
+				
+				<?php include("include/copyright.php"); ?>
+				
 			</section>
 		</div>
 
-		<footer>
-			<div class="footerlogosite">
-				<img class="logoheader" src="image/logo.png" alt="logo du site" />
-				<div class="titresite">
-					<h1>Maxime callet</h1>
-					<div class="alignh2">
-						<div class="bordureh2l"></div>
-						<h2>Unity Developer</h2>
-						<div class="bordureh2r"></div>	
-					</div>
-				</div>
-				<p>Design : Maxime Callet <br />
-				Dév. et intégration : Thomas Meytre</p>
-			</div>
-		</footer>
+		<?php include("include/footer.php"); ?>
+
 	</body>
 </html>
