@@ -77,7 +77,10 @@ body
 	height: auto;
 }
 
-
+a
+{
+	text-decoration: none;
+}
 
 
 
@@ -231,13 +234,7 @@ div[class*="alignh2"]
 {
 	display: flex;
 	justify-content: center;
-	align-items: center;
 	height: 236px;
-}
-
-.headhome article
-{
-	line-height: 0px;
 }
 
 .headhome2
@@ -250,7 +247,9 @@ div[class*="alignh2"]
 	font-family: 'titreprésentation', arial, serif;
 	letter-spacing: 1px;
 	font-size: 35px;
-	word-wrap: break-word;
+	margin-top: 30px;
+	line-height: 0px;
+
 }
 
 .bordureflex
@@ -260,6 +259,8 @@ div[class*="alignh2"]
 	align-items: center;
 	padding-right: 55px;
 	padding-left: 55px;
+	position: relative;
+	top: 10px;
 }
 
 .bordureh1lqui
@@ -296,11 +297,12 @@ div[class*="alignh2"]
 	margin-right: 55px;
 	margin-left: 55px;
 	line-height: 20px;
-	word-spacing: 3px;
+	word-spacing: 1.5px;
 	-webkit-hyphens: auto;
 	-ms-hyphens: auto;
 	hyphens: auto;
 }
+
 
 
 
@@ -332,7 +334,7 @@ div[class*="alignh2"]
 
 .contenu p
 {
-	width: 1000px;
+	width: 1140px;
 }
 
 .bouton
@@ -347,7 +349,6 @@ div[class*="alignh2"]
 
 .bouton a
 {
-	text-decoration: none;
 	text-transform: uppercase;
 	border: 1px solid #FFBA39;
 	box-shadow: 0px 1px 1px black;
