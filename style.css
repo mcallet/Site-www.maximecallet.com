@@ -380,6 +380,13 @@ div[class*="alignh2"]
 	padding: 8px 10px 5px 10px;
 }
 
+.bouton a:hover
+{
+	
+	text-shadow: none;
+	box-shadow: 1px 1px 0px #c78e3f inset;
+}
+
 .petitcontenu
 {
 	width: 1000px;
