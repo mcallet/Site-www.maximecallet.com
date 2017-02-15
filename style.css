@@ -202,7 +202,6 @@ div[class*="alignh2"]
 {
 	background-color: #FFBA39;
 	height: 100%;
-	min-width: 1311px;
 }
 
 .home .copyright
@@ -319,7 +318,13 @@ div[class*="alignh2"]
 
 
 
-
+.bannierebook
+{
+	border: 1px solid black;
+	padding: 10px;
+	border-radius: 20px/20px;
+	box-shadow: 0px 1px 3px black;
+}
 
 .contenu
 {
