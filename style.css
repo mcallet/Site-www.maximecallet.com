@@ -97,7 +97,7 @@ a
 {
 	
 	color: #FFBA39;
-	height: 76px;
+	height: 70px;
 	display: -webkit-box;
 	display: flex;
 	-webkit-box-pack: center;
@@ -117,6 +117,7 @@ header .titresite
 {
 	width: auto;
 	height: 63px;
+	margin-top: 3px;
 }
 
 header .logosite
