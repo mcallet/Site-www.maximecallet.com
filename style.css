@@ -392,12 +392,12 @@ div[class*="alignh2"]
 
 .imggroupebook
 {
-	max-width: 1140px;
+	max-width: 1000px;
 	display: flex;
 	flex-wrap: wrap;
 	height: 100%;
-	justify-content: space-around;
-	align-content: space-around;
+	justify-content: space-between;
+	align-content: space-between;
 }
 
 
