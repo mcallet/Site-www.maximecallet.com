@@ -85,6 +85,7 @@ a
 
 
 
+
 /* header */
 
 
@@ -97,8 +98,11 @@ a
 	
 	color: #FFBA39;
 	height: 76px;
+	display: -webkit-box;
 	display: flex;
+	-webkit-box-pack: center;
 	justify-content: center;
+	-webkit-box-align: center;
 	align-items: center;
 	min-width: 350px;
 	margin: auto;
@@ -118,7 +122,6 @@ header .titresite
 header .logosite
 {
 	height: auto;
-	display: flex;
 	align-items: center;
 }
 
@@ -163,7 +166,9 @@ div[class*="titresite"] h2
 
 div[class*="alignh2"]
 {
+	display: -webkit-box;
 	display: flex;
+	-webkit-box-align: center;
 	align-items: center;
 	justify-content: space-between;
 }
@@ -195,9 +200,6 @@ div[class*="alignh2"]
 
 .home
 {
-	display: flex;
-	justify-content: center;
-	flex-direction: column;
 	background-color: #FFBA39;
 	height: 100%;
 	min-width: 1311px;
@@ -232,7 +234,9 @@ div[class*="alignh2"]
 
 .headhome
 {
+	display: -webkit-box;
 	display: flex;
+	-webkit-box-pack: center;
 	justify-content: center;
 	height: 236px;
 }
@@ -254,8 +258,10 @@ div[class*="alignh2"]
 
 .bordureflex
 {
+	display: -webkit-box;
 	display: flex;
 	justify-content: space-between;
+	-webkit-box-align: center;
 	align-items: center;
 	padding-right: 55px;
 	padding-left: 55px;
@@ -318,8 +324,11 @@ div[class*="alignh2"]
 .contenu
 {
 	font-family: 'textefont', arial, serif;
+	display: -webkit-box;
 	display: flex;
+	-webkit-box-orient: vertical;
 	flex-direction: column;
+	-webkit-box-align: center;
 	align-items: center;
 	text-align: justify;
 	word-wrap: break-word;
