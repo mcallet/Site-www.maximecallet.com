@@ -314,7 +314,7 @@ div[class*="alignh2"]
 
 
 
-/* contenu de la page HOME */
+/* contenu des pages */
 
 
 
@@ -334,6 +334,12 @@ div[class*="alignh2"]
 	word-wrap: break-word;
 	background-color: #FFFFFF;
 	padding: 20px 60px 60px 40px;
+}
+
+.contenu h1
+{
+	font-family: 'textefont', arial, serif;
+	font-size: 2em;
 }
 
 .contenu span
