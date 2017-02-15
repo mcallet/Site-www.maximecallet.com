@@ -327,6 +327,11 @@ div[class*="alignh2"]
 	box-shadow: 0px 1px 3px black;
 }
 
+.bannierebook:hover
+{
+	opacity: 0.9;
+}
+
 .contenu
 {
 	font-family: 'textefont', arial, serif;
@@ -382,9 +387,7 @@ div[class*="alignh2"]
 
 .bouton a:hover
 {
-	
-	text-shadow: none;
-	box-shadow: 1px 1px 0px #c78e3f inset;
+	opacity: 0.8;
 }
 
 .petitcontenu
@@ -399,9 +402,6 @@ div[class*="alignh2"]
 {
 	width: 450px;
 }
-
-
-
 
 
 /* Book Ikuinen */
