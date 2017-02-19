@@ -319,6 +319,44 @@ div[class*="alignh2"]
 
 
 
+.boutonhometop
+{
+	margin: auto;
+	width: 1000px;
+	text-align: left;
+}
+
+.boutonhomebot
+{
+	margin: auto;
+	width: 1000px;
+	text-align: right;
+}
+
+.boutonhometop, .boutonhomebot
+{
+	font-family: 'navfont', arial, serif;
+	letter-spacing: 1px;
+	text-shadow: 1px 2px 0px #c78e3f;
+}
+
+.boutonhometop a, .boutonhomebot a
+{
+	text-transform: uppercase;
+	border: 1px solid #FFBA39;
+	box-shadow: 0px 3px 0px #c78e3f;
+	border-radius: 18px/20px;
+	color: #FFFFFF;
+	background-color: #FFBA39;
+	padding: 8px 10px 5px 10px;
+}
+
+.boutonhometop a:hover, .boutonhomebot a:hover
+{
+	opacity: 0.8;
+}
+
+
 .bannierebook
 {
 	border: 1px solid black;
@@ -334,6 +372,8 @@ div[class*="alignh2"]
 
 .contenu
 {
+	background-color: #FFFFFF;
+	padding: 20px 60px 60px 40px;
 	font-family: 'textefont', arial, serif;
 	display: -webkit-box;
 	display: flex;
@@ -343,14 +383,13 @@ div[class*="alignh2"]
 	align-items: center;
 	text-align: justify;
 	word-wrap: break-word;
-	background-color: #FFFFFF;
-	padding: 20px 60px 60px 40px;
 }
 
 .contenu h1
 {
 	font-family: 'textefont', arial, serif;
 	font-size: 2em;
+	text-align: center;
 }
 
 .contenu span
@@ -398,17 +437,25 @@ div[class*="alignh2"]
 	justify-content: space-between;
 }
 
+article img:hover
+{
+	opacity: 0.8;
+}
+
 .petitcontenu p
 {
 	width: 490px;
 }
 
-
 /* Book Ikuinen */
 
 
 
-
+.imgikuinenalimentation
+{
+	display: block;
+	margin: auto;
+}
 
 .imggroupebook
 {
@@ -419,8 +466,6 @@ div[class*="alignh2"]
 	justify-content: space-between;
 	align-content: space-between;
 }
-
-
 
 
 
