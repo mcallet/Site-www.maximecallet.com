@@ -470,6 +470,27 @@ article img:hover
 
 
 
+/* Book Reach */
+
+
+.misenpage
+{
+	margin: auto;
+	width: 1000px;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: flex;
+	flex-wrap: wrap;
+}
+
+.misenpage p
+{
+	width: 400px;
+}
+
+
+
+
 
 
 /* footer */
