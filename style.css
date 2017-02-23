@@ -366,11 +366,6 @@ div[class*="alignh2"]
 	box-shadow: 0px 1px 3px grey;
 }
 
-.bannierebook:hover
-{
-	opacity: 0.9;
-}
-
 .contenu
 {
 	background-color: #FFFFFF;
