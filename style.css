@@ -540,3 +540,142 @@ footer p
 	color: #9B9B9B;
 	font-weight: 500;
 }
+
+
+/* slidebare */
+
+
+/* liste images*/
+
+.diapo{
+display: inline-block;
+width:1000px;
+margin:auto;
+list-style: none;}
+
+.diapo li {
+margin: 10px;
+width:auto;
+float:left;
+margin-top:20px}
+
+
+.diapo li > a img{
+display:inline-block;
+height:auto;
+width:220px;
+border:3px solid white;
+box-shadow:0 0 5px hsla(0,0%,0%,.4)}
+
+.diapo li > a{color:#fff;display:block;position:relative}
+
+.diapo li > a .clic{
+position:absolute;
+width:220px;
+height:98%;
+top:0;
+left:50%;
+-ms-transform:translatex(-50%);
+-webkit-transform:translatex(-50%);
+transform:translatex(-50%);
+text-align:center;
+font-size:14px;
+opacity:0;
+background:rgba(0,0,0,.6);
+transition:opacity .3s linear}
+
+.diapo li > a:hover .clic{opacity:.8}
+
+.diapo li > a .clic:before{
+position:relative;
+top:50%;
+content:'Cliquez pour agrandir'}
+
+
+/*lightbox*/
+
+/*description image*/
+.des{
+display:block;
+position:absolute;
+bottom:-100%;
+padding:10px;
+color:#fff;
+font-size:1rem;
+text-align:center;
+background:hsla(0,0%,0%,.5);
+width:100%;
+min-height:100px}
+
+
+/*boutons suivant et precedent lightbox*/
+.prece,
+.suiva{
+display:none;
+text-decoration:none;
+opacity:.6;
+z-index:2;
+font-size:54px;
+position:absolute;
+color:#fff;
+top:45%}
+
+.suiva{right:10%}
+.prece{left:10%}
+
+.suiva:before{content:"\e068";font-family:"titreprésentation"}
+
+.prece:before{content:"\e05a";font-family:"titreprésentation"}
+
+.prece:hover,.suiva:hover{transition:.8s;opacity:1}
+
+/*fermeture lightbox */
+.ferm{display:none;
+text-decoration:none;
+color:#fff;
+position:absolute;
+top:0;
+right:0;
+font-size:42px;
+padding:20px}
+.ferm:before{content:"\e085";font-family:"titreprésentation"}
+/*fin fermeture lightbox */
+
+/*design image et effet lightbox */	
+.trans-image{width:0;height:0;position:fixed;overflow:hidden;left:0;top:0;min-height:100%;z-index:1;background:hsla(0,0%,0%,.8)}
+.trans-image img{display:none;top:10%;position:absolute;left:50%;margin-left:-150px;border:5px solid #fff}
+.trans-image:target{width:100%;height:100%}
+.trans-image:target > .prece,
+.trans-image:target > .suiva,
+.trans-image:target > img,
+.trans-image:target > .ferm{
+display:block;
+animation:effet .4s ease-in-out .4s backwards;
+-webkit-animation:effet .4s ease-in-out .4s backwards}
+
+.trans-image:target > .prece,
+.trans-image:target > .suiva{animation-delay:.6s;-webkit-animation-delay:.6s}
+
+.trans-image:target > .des{animation:effet1 .4s .6s forwards;-webkit-animation:effet1 .4s .6s forwards}
+
+
+/*animations*/
+
+@keyframes effet{
+0%{transform:scale(0)}
+50%{transform:scale(1.2)}
+100%{transform:scale(1)}}
+	
+	
+@-webkit-keyframes effet{
+0%{opacity:0;-webkit-transform:scale(0)}
+80%{-webkit-transform:scale(1.2)}
+100%{opacity:1;-webkit-transform:scale(1))}
+}	
+	
+	
+@keyframes effet1{100%{bottom:0}}
+
+@-webkit-keyframes effet1{100%{bottom:0}}
+
+/*fin animations*/
