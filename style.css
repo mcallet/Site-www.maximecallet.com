@@ -610,9 +610,9 @@ top:45%}
 .suiva{right:10%}
 .prece{left:10%}
 
-.suiva:before{content:"\e068";font-family:"Arial Black"}
+.suiva:before{content:"\e068";font-family:"bric-a-brac"}
 
-.prece:before{content:"\e05a";font-family:"Arial Black"}
+.prece:before{content:"\e05a";font-family:"bric-a-brac"}
 
 .prece:hover,.suiva:hover{transition:.8s;opacity:1}
 
@@ -625,7 +625,7 @@ top:0;
 right:0;
 font-size:42px;
 padding:20px}
-.ferm:before{content:"\e085";font-family:"Arial Black"}
+.ferm:before{content:"\e085";font-family:"bric-a-brac"}
 /*fin fermeture lightbox */
 
 /*design image et effet lightbox */	
