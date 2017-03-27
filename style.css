@@ -147,22 +147,6 @@ div[class*="titresite"] h2
 	color: #FFBA39;
 }
 
-div[class*="titresite"] h3
-{
-	font-family: 'soustitrefont', arial, serif;
-	color: #FFFFFF; 
-	font-weight: 400;
-	letter-spacing: 1px;
-	line-height: 23px;
-	margin-bottom : -5px;
-	margin-top: 6px;
-}
-
-.ban h3
-{
-	font-size: 30px;
-}
-
 .ban h1
 {
 	font-size: 30px;
@@ -521,7 +505,6 @@ article img:hover
 {
 	text-align: center;
 	margin-top: 15px;
-	min-width: 1000px;
 }
 
 .footerlogosite h1
@@ -550,11 +533,40 @@ footer h2
 	padding-left: 18px;
 }
 
+footer h3
+{
+	font-family: 'soustitrefont', arial, serif;
+	color: #FFFFFF; 
+	font-weight: 400;
+	font-size: 20px;
+	letter-spacing: 1px;
+	line-height: 23px;
+	margin-bottom : -5px;
+	margin-top: 8px;
+}
+
 footer p
 {
 	font-family: 'textefont';
 	color: #9B9B9B;
 	font-weight: 500;
+}
+
+.blockfooter
+{
+	width: 1000px;
+	margin: auto;
+}
+
+.bl
+{
+	width: 490px;
+	float: left;
+}
+
+.inputcontact
+{
+	text-align: center;
 }
 
 
