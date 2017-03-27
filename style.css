@@ -147,6 +147,22 @@ div[class*="titresite"] h2
 	color: #FFBA39;
 }
 
+div[class*="titresite"] h3
+{
+	font-family: 'soustitrefont', arial, serif;
+	color: #FFFFFF; 
+	font-weight: 400;
+	letter-spacing: 1px;
+	line-height: 23px;
+	margin-bottom : -5px;
+	margin-top: 6px;
+}
+
+.ban h3
+{
+	font-size: 30px;
+}
+
 .ban h1
 {
 	font-size: 30px;
