@@ -569,6 +569,73 @@ footer p
 	text-align: center;
 }
 
+input[type=email]
+{
+	font-family: 'textefont', arial, serif;
+	font-size: 15px;
+	color: #FFFFFF;
+	border: 2px solid #454646;
+	background: #373737;
+	padding: .7em .6em;
+	width: 312px;
+	display: inline-block;
+	box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3) inset;
+	outline: none;
+}
+
+input[type=email]:focus
+{
+	border: 2px solid #FFBA39;
+	color: #FFFFFF;
+}
+
+textarea[name=message]
+{
+	height: 100px;
+	max-width:490px;
+	font-family: 'textefont', arial, serif;
+	font-size: 15px;
+	color: #FFFFFF;
+	border: 2px solid #454646;
+	background: #373737;
+	padding: .7em .6em;
+	outline: none;
+	width: 312px;
+	display: inline-block;
+	box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3) inset;
+}
+
+textarea[name=message]:focus
+{
+	border: 2px solid #FFBA39;
+	color: #FFFFFF;
+}
+
+input[type=submit]
+{
+	font-family: 'navfont', arial, serif;
+	font-size: 15px;
+	letter-spacing: 1px;
+	text-shadow: 1px 2px 0px #c78e3f;
+	text-align: center;
+	margin-top: -6px;
+	margin-bottom: 35px;
+	
+	text-transform: uppercase;
+	border: 1px solid #FFBA39;
+	box-shadow: 0px 3px 0px #c78e3f;
+	border-radius: 18px/20px;
+	color: #FFFFFF;
+	background-color: #FFBA39;
+	padding: 8px 10px 5px 10px;	
+	outline: none;	
+}
+
+input[type=submit]:hover
+{
+	opacity: 0.8;
+}
+
 
 /* slidebare */
 
