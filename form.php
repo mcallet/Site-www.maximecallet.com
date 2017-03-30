@@ -2,15 +2,15 @@
 	$destinataire = 'contact@maximecallet.com';
  
 	$copie = 'oui';
-	$message_envoye = "Votre message nous est bien parvenu ! <a href=\"index.html\">Retour à l'accueil</a>.";
-	$message_non_envoye = "L'envoi du mail a échoué, veuillez <a href=\"index.html\">réessayer</a> SVP.";
+	$message_envoye = "Votre message nous est bien parvenu ! <a href=\"index.html\">Retour Ã  l'accueil</a>.";
+	$message_non_envoye = "L'envoi du mail a Ã©chouÃ©, veuillez <a href=\"index.html\">rÃ©essayer</a> SVP.";
 
 	$message_erreur_formulaire = "Vous devez d'abord <a href=\"index.html\">envoyer le formulaire</a>.";
-	$message_formulaire_invalide = "Vérifiez que tous les champs soient bien remplis et que l'email soit sans erreur.";
+	$message_formulaire_invalide = "VÃ©rifiez que tous les champs soient bien remplis et que l'email soit sans erreur.";
   
 
 	/*
-	 * cette fonction sert à nettoyer et enregistrer un texte
+	 * cette fonction sert Ã  nettoyer et enregistrer un texte
 	 */
 	function Rec($text)
 	{
@@ -25,7 +25,7 @@
 	};
  
 	/*
-	 * Cette fonction sert à vérifier la syntaxe d'un email
+	 * Cette fonction sert Ã  vÃ©rifier la syntaxe d'un email
 	 */
 	function IsEmail($email)
 	{
@@ -33,17 +33,17 @@
 		return (($value === 0) || ($value === false)) ? false : true;
 	}
  
-	// formulaire envoyé, on récupère tous les champs.
+	// formulaire envoyÃ©, on rÃ©cupÃ¨re tous les champs.
 	$email   = (isset($_POST['email']))   ? Rec($_POST['email'])   : '';
-	$objet   = "Formulaire de contact";
+	$objet   = "Formulaire de contact : www.maximecallet.com";
 	$message = (isset($_POST['message'])) ? Rec($_POST['message']) : '';
  
-	// On va vérifier les variables et l'email ...
-	$email = (IsEmail($email)) ? $email : ''; // soit l'email est vide si erroné, soit il vaut l'email entré
+	// On va vÃ©rifier les variables et l'email ...
+	$email = (IsEmail($email)) ? $email : ''; // soit l'email est vide si erronÃ©, soit il vaut l'email entrÃ©
  
 	if (($email != '') && ($message != ''))
 	{
-		// les 2 variables sont remplies, on génère puis envoie le mail
+		// les 2 variables sont remplies, on gÃ©nÃ¨re puis envoie le mail
 		$headers  = 'MIME-Version: 1.0' . "\r\n";
 		$headers .= 'From: <'.$email.'>' . "\r\n" .
 				'Reply-To:'.$email. "\r\n" .
@@ -62,7 +62,7 @@
 			$cible = $destinataire;
 		};
  
-		// Remplacement de certains caractères spéciaux
+		// Remplacement de certains caractÃ¨res spÃ©ciaux
 		$message = str_replace("&#039;","'",$message);
 		$message = str_replace("&#8217;","'",$message);
 		$message = str_replace("&quot;",'"',$message);
