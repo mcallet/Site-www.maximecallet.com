@@ -569,7 +569,7 @@ footer p
 	text-align: center;
 }
 
-input[type=email]
+input[type=text]
 {
 	font-family: 'textefont', arial, serif;
 	font-size: 15px;
@@ -583,10 +583,16 @@ input[type=email]
 	outline: none;
 }
 
-input[type=email]:focus
+input[type=text]:focus
 {
 	border: 2px solid #FFBA39;
 	color: #FFFFFF;
+}
+
+input:-webkit-autofill
+{
+	-webkit-box-shadow: 0 0 0px 1000px #373737 inset;
+	-webkit-text-fill-color: #FFFFFF !important;
 }
 
 textarea[name=message]
