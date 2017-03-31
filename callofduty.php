@@ -3,7 +3,8 @@
 	<head>
 		<meta charset="utf-8" />
 		<link rel="stylesheet" href="style.css" />
-
+		<link rel="icon" type="image/png" href="favicon.png" />
+		<!--[if IE]><link rel="shortcut icon" type="image/x-icon" href="favicon.ico" /><![endif]-->
 		<title>Analyse Call Of Duty | Maxime Callet </title>
 	</head>
 

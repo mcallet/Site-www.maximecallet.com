@@ -3,6 +3,8 @@
 	<head>
 		<meta charset="utf-8" />
 		<link rel="stylesheet" href="style.css" />
+		<link rel="icon" type="image/png" href="favicon.png" />
+		<!--[if IE]><link rel="shortcut icon" type="image/x-icon" href="favicon.ico" /><![endif]-->
 		<title>The Master Of Time | Maxime Callet</title>
 	</head>
 
